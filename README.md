@@ -1,3 +1,4 @@
+
                                             Banking Microservices Application
 A secure RESTful microservices application built with Spring Boot. This project includes token-based authentication, 
 an API gateway, Eureka service discovery, and modular endpoints for account and authentication services.
@@ -80,10 +81,12 @@ Account Service: http://localhost:8083
 
 Create the MySQL Database:
 
+
 CREATE DATABASE bank_db;
 
 
 Use the Database Script to create necessary tables:
+
 
 CREATE TABLE `users` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -105,7 +108,9 @@ CREATE TABLE `account` (
   PRIMARY KEY (`id`)
 )
 
-Insert Sample Data :
+
+Insert Sample Data
+
 
 INSERT INTO ACCOUNT (account_number, customer_name, balance, account_status,account_type)
 VALUES
