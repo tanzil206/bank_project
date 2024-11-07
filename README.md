@@ -1,8 +1,8 @@
-                                **Banking Microservices Application**
+                                            Banking Microservices Application
 A secure RESTful microservices application built with Spring Boot. This project includes token-based authentication, 
 an API gateway, Eureka service discovery, and modular endpoints for account and authentication services.
 
-**Table of Contents**
+Table of Contents
  Prerequisites
  Installation
  Running the Project
