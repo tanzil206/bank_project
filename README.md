@@ -1,8 +1,8 @@
-Banking Microservices Application
+             **Banking Microservices Application**
 A secure RESTful microservices application built with Spring Boot. This project includes token-based authentication, 
 an API gateway, Eureka service discovery, and modular endpoints for account and authentication services.
 
-Table of Contents
+**Table of Contents**
  Prerequisites
  Installation
  Running the Project
@@ -41,7 +41,8 @@ Example configurations in application.yaml of Account
 3.Install Dependencies:
    
 
-Running the Project
+Running the Project (Confirm DB server started)
+
 Start the Eureka Server (Service Discovery):
 
 Navigate to the Eureka Server directory:
@@ -165,13 +166,14 @@ Response
 
 b. Account Endpoints
 
-Get Customer Account Details
+Fetch Customer Account Details
 
 Request:
 
 GET http://localhost:8060/accounts/customer/ACC123456
 
-Header -> Bearer {{token}}
+Header -> 
+Authorization = Bearer {{token}}
 
 Response:
 
